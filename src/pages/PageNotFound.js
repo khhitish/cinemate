@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export const PageNotFound = ({ title }) => {
     useEffect(() => {
         document.title = `${title} / Cinemate`;
-    }, []);
+    }, [title]);
 
     return (
         <main>
